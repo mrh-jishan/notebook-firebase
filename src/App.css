@@ -3,6 +3,7 @@
 .parent {
   display: flex;
   flex-direction: row;
+  min-height: 100vh;
   height: 100%;
 }
 
@@ -14,4 +15,5 @@
 .content {
   background: #ddd;
   width: 85%;
+  padding: 5px 10px;
 }

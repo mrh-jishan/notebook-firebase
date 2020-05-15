@@ -1,7 +1,7 @@
 import { put, takeEvery, select, call } from 'redux-saga/effects';
 
 import { TODO, setTodo, loadTodo } from '../actions/todoAction';
-import { addTodo, fetchTodo } from '../api/todoAPI';
+import { addTodo, fetchTodo } from '../api';
 
 export const getPage = state => state.nextPage;
 
